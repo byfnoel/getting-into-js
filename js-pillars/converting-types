@@ -1,0 +1,17 @@
+// coercion
+
+let msg0 = "I live in ";
+let msg1 = "Miami";
+let msg2 = "I am ";
+let msg3 = 20;
+console.log(msg0 + msg1); // String + string = string
+console.log(msg2 + msg3); // string + number = string
+console.log(`${msg0} ${msg1}. ${msg2} ${msg3}.`); // string
+
+// NOTES
+/*
+Num + Num = Num
+Num + String = String
+String + Num = String
+String + String = String
+*/
